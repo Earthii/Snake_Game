@@ -18,9 +18,12 @@ function pickLocation(){
     food = createVector(floor(random(cols)),floor(random(cols)));
     food.mult(scl)
 }
-
+// function mousePressed(){ //cheat
+//     snake.total++;
+// }
 function draw(){
     background(51);
+    snake.death();
     snake.update();
     snake.show();
 
@@ -34,13 +37,29 @@ function draw(){
 }
 function keyPressed(){
     if (keyCode === UP_ARROW){
-        snake.dir(0,-1)
+        if(snake.yspeed == 1){
+            //not allowed to go backwards
+        }else{
+            snake.dir(0,-1);
+        }
     }else if( keyCode === DOWN_ARROW){
-        snake.dir(0,1)
+        if(snake.yspeed == -1){
+            //not allowed to go backwards
+        }else{
+            snake.dir(0,1)
+        }
     }else if( keyCode === RIGHT_ARROW){
-        snake.dir(1,0)
+        if(snake.xspeed == -1){
+            //not allowed to go backwards
+        }else{
+            snake.dir(1,0)
+        }
     }else if( keyCode === LEFT_ARROW){
-        snake.dir(-1,0)
+        if(snake.xspeed == 1){
+            //not allowed to go backwards
+        }else{
+            snake.dir(-1,0)
+        }
     }
 
 }
