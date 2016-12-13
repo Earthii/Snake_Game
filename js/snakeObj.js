@@ -6,6 +6,8 @@ function Snake(){
     this.y = 0;
     this.xspeed = 1;
     this.yspeed = 0;
+    this.total = 0;
+    this.tail = [];
 
     this.dir = function(x,y) {
         this.xspeed = x;
@@ -23,5 +25,14 @@ function Snake(){
     this.show = function(){
         fill(255);
         rect(this.x,this.y, scl, scl);
+    }
+
+    this.eat = function(pos){
+        var d = dist(this.x, this.y, pos.x, pos.y);
+        if(d <1){
+            return true;
+        }else{
+            return false
+        }
     }
 }
