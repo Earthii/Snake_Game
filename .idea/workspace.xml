@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="488051b5-2560-495d-8fd6-9266ca743109" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Snake_game.html" afterPath="$PROJECT_DIR$/Snake_game.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/sketch.js" afterPath="$PROJECT_DIR$/js/sketch.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/snakeObj.js" afterPath="$PROJECT_DIR$/js/snakeObj.js" />
     </list>
     <ignored path="Snake_Game.iws" />
@@ -41,8 +39,8 @@
       <file leaf-file-name="sketch.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/sketch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            <state relative-caret-position="799">
+              <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -51,8 +49,8 @@
       <file leaf-file-name="snakeObj.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/snakeObj.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="842">
-              <caret line="58" column="68" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
+            <state relative-caret-position="298">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding>
                 <element signature="n#!!doc;n#Snake#0" expanded="false" />
               </folding>
@@ -78,8 +76,8 @@
       <list>
         <option value="$PROJECT_DIR$/snake.js" />
         <option value="$PROJECT_DIR$/js/snake.js" />
-        <option value="$PROJECT_DIR$/js/sketch.js" />
         <option value="$PROJECT_DIR$/Snake_game.html" />
+        <option value="$PROJECT_DIR$/js/sketch.js" />
         <option value="$PROJECT_DIR$/js/snakeObj.js" />
       </list>
     </option>
@@ -120,6 +118,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -154,8 +154,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,6 +221,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="488051b5-2560-495d-8fd6-9266ca743109" name="Default" comment="" />
@@ -232,12 +233,13 @@
       <updated>1481592607184</updated>
       <workItem from="1481592608292" duration="1150000" />
       <workItem from="1481594004790" duration="880000" />
-      <workItem from="1481594943492" duration="1756000" />
+      <workItem from="1481594943492" duration="1889000" />
+      <workItem from="1481597049976" duration="549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3786000" />
+    <option name="totallyTimeSpent" value="4468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="868" height="1167" extended-state="0" />
@@ -277,6 +279,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Snake_game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/snakeObj.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#Snake#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Snake_game.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -330,6 +358,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/snake.js" />
+    <entry file="file://$PROJECT_DIR$/js/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Snake_game.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -338,18 +374,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/sketch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/snakeObj.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="58" column="68" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
+        <state relative-caret-position="298">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc;n#Snake#0" expanded="false" />
           </folding>

@@ -22,6 +22,9 @@ function Snake(){
             if(d < 1){
                 this.total = 0;
                 this.tail = [];
+                document.getElementById("score").innerHTML = "0";
+                this.x = 0;
+                this.y = 0;
             }
         }
     }
@@ -32,12 +35,22 @@ function Snake(){
                 this.tail[i] = this.tail[i+1];
             }
         }
-
         this.tail[this.total-1] = createVector(this.x,this.y);
 
         this.x = this.x + this.xspeed * scl;
         this.y = this.y + this.yspeed * scl;
-
+        if(this.x == -20){
+            this.death();
+        }
+        if(this.x == 600){
+            this.death();
+        }
+        if(this.y == - 20){
+            this.death();
+        }
+        if(this.y == 600){
+            this.death();
+        }
         this.x = constrain( this.x , 0, width - scl);
         this.y = constrain( this.y , 0, height -scl);
 
